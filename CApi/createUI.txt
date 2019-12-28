@@ -1,0 +1,14 @@
+//https://medium.com/@geeksamu/building-angular-6-application-4bd7b19a66ab
+ng new AUI --routing --style=scss --skip-tests
+ng g c home
+
+ng g c login
+ng g c add-user
+ng g c edit-user
+ng g c list-user
+
+
+
+ionic start ArbitrageUI
+#https://www.joshmorony.com/create-a-pwa-with-angular-service-workers-in-ionic-4/
+ng add @angular/pwa --project app
